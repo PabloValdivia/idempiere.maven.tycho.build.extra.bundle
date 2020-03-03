@@ -10,5 +10,6 @@
 		<module>org.idempiere.p2.build.extra.bundle.site</module>
 		<module>org.idempiere.p2.build.extra.bundle.targetplatform</module>
 		<!-- list of extra bundle <module>../project.extra.bundle</module> -->
+		<module>../web.service.client.bnd/co.globalqss.fedian-idempiere</module>
 	</modules>
 </project>

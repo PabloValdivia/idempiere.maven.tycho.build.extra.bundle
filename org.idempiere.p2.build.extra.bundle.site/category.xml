@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-    <category-def name="all" label="idempiere extra.plugin"/>
+   <feature id="co.globalqss.fedian.client.feature">
+      <category name="all"/>
+   </feature>
+   <category-def name="all" label="idempiere extra.plugin"/>
 </site>
