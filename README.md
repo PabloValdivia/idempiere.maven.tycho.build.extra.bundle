@@ -31,3 +31,11 @@ cd $buildDir/idempiere.maven.tycho.build.extra.bundle/org.idempiere.p2.build.ext
 ```
 if every command success, you get a p2 repository at $buildDir/idempiere.maven.tycho.build.extra.bundle/org.idempiere.p2.build.extra.bundle.site/target/repository
 <br/> you can use this repository to install this feature with all its dependency
+
+## install co.globalqss.fedian.client.feature
+1. upload $buildDir/idempiere.maven.tycho.build.extra.bundle/org.idempiere.p2.build.extra.bundle.site/target/repository to your web server (you can use file protocal also)
+2. go to idempiere server. go to idempiere binary folder
+3. run install command
+```shell
+./update-prd.sh "$buildDir/idempiere.maven.tycho.build.extra.bundle/org.idempiere.p2.build.extra.bundle.site/target/repository" co.globalqss.fedian.client.feature.feature.group
+```
